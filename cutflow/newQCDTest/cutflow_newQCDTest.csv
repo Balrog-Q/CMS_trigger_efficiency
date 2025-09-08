@@ -1,0 +1,10 @@
+step,cut_name,cut_expression,count,efficiency_absolute,efficiency_relative
+1,All events,1,1879276,100.0,100.0
+2,nFatJet >= 2,nFatJet >= 2,1879276,100.0,100.0
+3,FatJet_pt[0] > 250 GeV,FatJet_pt[0] > 250,1777559,94.58743686398378,94.58743686398378
+4,ParticleNet Xbb + Mass > 50 Filter,Sum((FatJet_particleNet_XbbVsQCD > 0.1) && (FatJet_mass > 50)) > 0,735189,39.12086356660757,41.35947104990608
+5,>=2 jets (m>50),Sum(FatJet_mass > 50) > 1,553372,29.446020701589337,75.26935250663435
+6,">=2 jets (pT>30, |eta|<2.4)",SelectedJets_pt.size() >= 2,550655,29.301443747485735,99.50901021374409
+7,>=2 FatJets |eta|<2.4,SelectedFatJets_pt.size() >= 2,541815,28.831049829828082,98.39463911160345
+8,Signal Trigger,Combo,445725,23.717910514474724,82.2651643088508
+9,Reference Trigger,HLT_AK8PFJet260,445081,23.683641998301475,99.85551629367883

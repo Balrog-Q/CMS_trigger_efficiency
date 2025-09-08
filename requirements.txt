@@ -1,0 +1,121 @@
+# CMS Trigger Efficiency Analysis - Requirements
+# Generated from project analysis on Mon Sep  8 23:25:36 CEST 2025
+# Compatible with CERN CMS environment (cern_cms)
+
+# =============================================================================
+# CORE MACHINE LEARNING LIBRARIES
+# =============================================================================
+
+# Gradient Boosting Algorithms
+xgboost>=3.0.3                    # Primary GBDT algorithm
+lightgbm>=4.6.0                   # LightGBM implementation
+catboost>=1.2.8                   # Yandex CatBoost
+scikit-learn>=1.7.0               # sklearn GradientBoosting + utilities
+
+# Deep Learning (Optional - for advanced models)
+tensorflow>=2.18.0                # Neural networks and Keras
+keras-tuner>=1.4.7                # Hyperparameter optimization for Keras
+
+# Hyperparameter Optimization
+optuna>=4.5.0                     # Bayesian optimization
+
+# =============================================================================
+# DATA ANALYSIS AND SCIENTIFIC COMPUTING
+# =============================================================================
+
+# Core numerical libraries
+numpy>=2.2.6                      # Fundamental array operations
+pandas>=2.3.0                     # Data manipulation and analysis
+scipy>=1.15.2                     # Scientific computing
+
+# Statistical analysis
+matplotlib>=3.10.3                # Plotting and visualization
+seaborn>=0.13.2                   # Statistical visualization
+
+# =============================================================================
+# HIGH ENERGY PHYSICS (HEP) SPECIFIC
+# =============================================================================
+
+# HEP-specific plotting and data handling
+mplhep>=0.3.59                    # HEP-style matplotlib plots
+hist>=2.8.1                       # Modern histogramming for HEP
+
+# ROOT - Critical for CMS data
+# NOTE: ROOT>=6.34.04 is typically pre-installed in CERN environments
+# For local installation, see: https://root.cern/install/
+# ROOT>=6.34.04
+
+# =============================================================================
+# JUPYTER AND INTERACTIVE ANALYSIS
+# =============================================================================
+
+# Jupyter ecosystem
+IPython>=9.3.0                    # Enhanced Python shell
+# jupyter>=1.0.0                  # Jupyter notebook (usually pre-installed)
+# ipywidgets>=7.6.0               # Interactive widgets
+
+# =============================================================================
+# UTILITIES AND SUPPORT LIBRARIES
+# =============================================================================
+
+# Command line and reporting
+tabulate>=0.9.0                   # Pretty-print tabular data
+
+# Data format support (usually built-in)
+# json                             # Built-in
+# pickle                           # Built-in
+# pathlib                          # Built-in
+
+# =============================================================================
+# DEVELOPMENT AND TESTING (Optional)
+# =============================================================================
+
+# Uncomment for development environment
+# pytest>=6.0.0                   # Testing framework
+# black>=22.0.0                   # Code formatting
+# flake8>=4.0.0                   # Linting
+# mypy>=0.900                     # Type checking
+
+# =============================================================================
+# CERN CMS ENVIRONMENT NOTES
+# =============================================================================
+
+# When using the CERN CMS environment (recommended):
+# 1. Source the CMS environment first:
+#    source /cvmfs/cms.cern.ch/cmsset_default.sh
+# 
+# 2. Most packages are pre-installed. Only install additional packages if needed:
+#    pip install --user <package_name>
+#
+# 3. ROOT is pre-installed and configured
+#
+# 4. For local development outside CERN, install ROOT separately:
+#    - Via conda: conda install root -c conda-forge
+#    - Via system package manager (Linux/macOS)
+#    - From source: https://root.cern/install/build_from_source/
+
+# =============================================================================
+# INSTALLATION INSTRUCTIONS
+# =============================================================================
+
+# OPTION 1 - CERN Environment (Recommended):
+# source /cvmfs/cms.cern.ch/cmsset_default.sh
+# pip install --user -r requirements.txt
+
+# OPTION 2 - Local Environment:
+# pip install -r requirements.txt
+# # Install ROOT separately (see notes above)
+
+# OPTION 3 - Conda Environment:
+# conda create -n cms-trigger python=3.9
+# conda activate cms-trigger  
+# conda install root -c conda-forge
+# pip install -r requirements.txt
+
+# =============================================================================
+# VERSION COMPATIBILITY
+# =============================================================================
+
+# Python: >=3.8 (tested with 3.9, 3.10, 3.11)
+# ROOT: >=6.24 (current: 6.34.04)
+# CERN CMS Software: CMSSW_12_X or later recommended

@@ -1,0 +1,450 @@
+CMS Trigger Efficiency Project - Library Usage Report
+======================================================================
+Generated on: Mon Sep  8 23:25:36 CEST 2025
+Project directory: /Users/khatran/Documents/CERN/cern-source/project/CMS-trigger-efficiency-ashe
+Total packages found: 44
+
+PACKAGE VERSIONS
+----------------------------------------------------------------------
+IPython                        : 9.3.0
+ROOT                           : 6.34.04
+argparse                       : Built-in module
+array                          : Built-in module
+ast                            : 3.0.0
+calibration                    : Version not found
+catboost                       : 1.2.8
+collections                    : Built-in module
+cutflow_analysis               : Version not found
+data_loader                    : Version not found
+datetime                       : Built-in module
+glob                           : Built-in module
+hist                           : 2.8.1
+hyperparameter_optimization    : Version not found
+importlib                      : 8.7.0
+integrated_ratio_predictor_fixed : Version not found
+json                           : Built-in module
+keras_tuner                    : 1.4.7
+library                        : Version not found
+lightgbm                       : 4.6.0
+math                           : Built-in module
+matplotlib                     : 3.10.3
+mplhep                         : 0.3.59
+numpy                          : 2.2.6
+optuna                         : 4.5.0
+os                             : Built-in module
+pandas                         : 2.3.0
+pathlib                        : Built-in module
+pickle                         : Built-in module
+pipeline_clean                 : Version not found
+pkg_resources                  : Version not found
+re                             : Built-in module
+scipy                          : 1.15.2
+seaborn                        : 0.13.2
+sklearn                        : 1.7.0
+subprocess                     : Built-in module
+sys                            : Built-in module
+tabulate                       : 0.9.0
+tensorflow                     : 2.18.0
+time                           : Built-in module
+traceback                      : Version not found
+typing                         : Built-in module
+warnings                       : Built-in module
+xgboost                        : 3.0.3
+
+
+FILE USAGE DETAILS
+----------------------------------------------------------------------
+
+IPython (9.3.0):
+  - data_distribution.ipynb
+  - run_gradient_boosting.ipynb
+
+ROOT (6.34.04):
+  - calibration/bdt_calibration_workflow.py
+  - calibration/pipeline_clean.py
+  - calibration/run_bdt_calibration.py
+  - cutflow/cutflow_analysis.py
+  - cutflow/cutflow_example.py
+  - cutflow/run_cutflow.py
+  - data_distribution.ipynb
+  - library/processing_data.py
+  - library/trigger_efficiency_ML.py
+  - model_selection/data_loader.py
+  - model_selection/gbdt_comparison_framework.py
+  - model_selection/pipeline_clean.py
+  - run_gradient_boosting.ipynb
+  - scale_factor/efficiency_ratio_predictor.py
+  - scale_factor/example_integration.py
+  - scale_factor/xgboost_scale_factor_predictor.py
+
+argparse (Built-in module):
+  - calibration/run_bdt_calibration.py
+
+array (Built-in module):
+  - library/trigger_efficiency_ML.py
+
+ast (3.0.0):
+  - extract_libraries.py
+
+calibration (Version not found):
+  - calibration/bdt_calibration_example.py
+  - calibration/bdt_calibration_workflow.py
+  - calibration/run_bdt_calibration.py
+  - calibration/test_gradientboosting_integration.py
+
+catboost (1.2.8):
+  - calibration/bdt_calibration_workflow.py
+  - calibration/pipeline_clean.py
+  - calibration/run_bdt_calibration.py
+  - model_selection/gbdt_comparison_framework.py
+  - model_selection/gbdt_training_pipeline.py
+  - model_selection/hyperparameter_optimization.py
+  - model_selection/pipeline_clean.py
+
+collections (Built-in module):
+  - extract_libraries.py
+
+cutflow_analysis (Version not found):
+  - cutflow/cutflow_example.py
+  - cutflow/run_cutflow.py
+
+data_loader (Version not found):
+  - model_selection/gbdt_training_pipeline.py
+
+datetime (Built-in module):
+  - calibration/bdt_calibration_workflow.py
+  - calibration/pipeline_clean.py
+  - calibration/run_bdt_calibration.py
+  - composing_plot.ipynb
+  - library/trigger_efficiency_ML.py
+  - model_selection/gbdt_comparison_framework.py
+  - model_selection/gbdt_training_pipeline.py
+  - model_selection/pipeline_clean.py
+  - model_selection/run_gbdt_comparison.py
+  - run_gradient_boosting.ipynb
+  - scale_factor/efficiency_ratio_predictor.py
+  - scale_factor/integrated_ratio_predictor_fixed.py
+  - scale_factor/xgboost_scale_factor_predictor.py
+
+glob (Built-in module):
+  - composing_plot.ipynb
+
+hist (2.8.1):
+  - library/trigger_efficiency_ML.py
+
+hyperparameter_optimization (Version not found):
+  - model_selection/gbdt_training_pipeline.py
+
+importlib (8.7.0):
+  - extract_libraries.py
+
+integrated_ratio_predictor_fixed (Version not found):
+  - scale_factor/example_integration.py
+
+json (Built-in module):
+  - calibration/pipeline_clean.py
+  - extract_libraries.py
+  - model_selection/pipeline_clean.py
+  - scale_factor/xgboost_scale_factor_predictor.py
+
+keras_tuner (1.4.7):
+  - library/trigger_efficiency_ML.py
+
+library (Version not found):
+  - calibration/bdt_calibration_workflow.py
+  - calibration/pipeline_clean.py
+  - data_distribution.ipynb
+  - library/processing_data.py
+  - model_selection/data_loader.py
+  - model_selection/gbdt_comparison_framework.py
+  - model_selection/pipeline_clean.py
+  - run_gradient_boosting.ipynb
+  - scale_factor/integrated_ratio_predictor_fixed.py
+
+lightgbm (4.6.0):
+  - calibration/bdt_calibration_workflow.py
+  - calibration/pipeline_clean.py
+  - calibration/run_bdt_calibration.py
+  - calibration/test_gradientboosting_integration.py
+  - model_selection/gbdt_comparison_framework.py
+  - model_selection/gbdt_training_pipeline.py
+  - model_selection/hyperparameter_optimization.py
+  - model_selection/pipeline_clean.py
+
+math (Built-in module):
+  - composing_plot.ipynb
+
+matplotlib (3.10.3):
+  - calibration/bdt_calibration_example.py
+  - calibration/bdt_calibration_workflow.py
+  - calibration/probability_calibration.py
+  - calibration/run_bdt_calibration.py
+  - calibration/test_gradientboosting_integration.py
+  - composing_plot.ipynb
+  - cutflow/cutflow_analysis.py
+  - cutflow/run_cutflow.py
+  - data_distribution.ipynb
+  - library/trigger_efficiency_ML.py
+  - model_selection/gbdt_training_pipeline.py
+  - model_selection/hyperparameter_optimization.py
+  - run_gradient_boosting.ipynb
+  - scale_factor/efficiency_ratio_predictor.py
+  - scale_factor/integrated_ratio_predictor_fixed.py
+  - scale_factor/xgboost_scale_factor_predictor.py
+
+mplhep (0.3.59):
+  - library/trigger_efficiency_ML.py
+
+numpy (2.2.6):
+  - calibration/bdt_calibration_example.py
+  - calibration/bdt_calibration_workflow.py
+  - calibration/pipeline_clean.py
+  - calibration/probability_calibration.py
+  - calibration/run_bdt_calibration.py
+  - calibration/test_gradientboosting_integration.py
+  - composing_plot.ipynb
+  - cutflow/cutflow_analysis.py
+  - data_distribution.ipynb
+  - library/processing_data.py
+  - library/trigger_efficiency_ML.py
+  - model_selection/data_loader.py
+  - model_selection/gbdt_comparison_framework.py
+  - model_selection/gbdt_training_pipeline.py
+  - model_selection/hyperparameter_optimization.py
+  - model_selection/pipeline_clean.py
+  - model_selection/run_gbdt_comparison.py
+  - run_gradient_boosting.ipynb
+  - scale_factor/efficiency_ratio_predictor.py
+  - scale_factor/example_integration.py
+  - scale_factor/integrated_ratio_predictor_fixed.py
+  - scale_factor/xgboost_scale_factor_predictor.py
+
+optuna (4.5.0):
+  - calibration/pipeline_clean.py
+  - model_selection/gbdt_comparison_framework.py
+  - model_selection/hyperparameter_optimization.py
+  - model_selection/pipeline_clean.py
+  - scale_factor/xgboost_scale_factor_predictor.py
+
+os (Built-in module):
+  - calibration/bdt_calibration_example.py
+  - calibration/bdt_calibration_workflow.py
+  - calibration/pipeline_clean.py
+  - calibration/run_bdt_calibration.py
+  - composing_plot.ipynb
+  - cutflow/cutflow_analysis.py
+  - cutflow/run_cutflow.py
+  - extract_libraries.py
+  - library/trigger_efficiency_ML.py
+  - model_selection/data_loader.py
+  - model_selection/gbdt_comparison_framework.py
+  - model_selection/gbdt_training_pipeline.py
+  - model_selection/hyperparameter_optimization.py
+  - model_selection/pipeline_clean.py
+  - model_selection/run_gbdt_comparison.py
+  - run_gradient_boosting.ipynb
+  - scale_factor/efficiency_ratio_predictor.py
+  - scale_factor/integrated_ratio_predictor_fixed.py
+  - scale_factor/xgboost_scale_factor_predictor.py
+
+pandas (2.3.0):
+  - calibration/bdt_calibration_example.py
+  - calibration/bdt_calibration_workflow.py
+  - calibration/pipeline_clean.py
+  - calibration/probability_calibration.py
+  - calibration/run_bdt_calibration.py
+  - calibration/test_gradientboosting_integration.py
+  - cutflow/cutflow_analysis.py
+  - data_distribution.ipynb
+  - library/processing_data.py
+  - library/trigger_efficiency_ML.py
+  - model_selection/data_loader.py
+  - model_selection/gbdt_comparison_framework.py
+  - model_selection/gbdt_training_pipeline.py
+  - model_selection/hyperparameter_optimization.py
+  - model_selection/pipeline_clean.py
+  - run_gradient_boosting.ipynb
+  - scale_factor/efficiency_ratio_predictor.py
+  - scale_factor/example_integration.py
+  - scale_factor/integrated_ratio_predictor_fixed.py
+  - scale_factor/xgboost_scale_factor_predictor.py
+
+pathlib (Built-in module):
+  - calibration/pipeline_clean.py
+  - extract_libraries.py
+  - library/trigger_efficiency_ML.py
+  - model_selection/gbdt_comparison_framework.py
+  - model_selection/gbdt_training_pipeline.py
+  - model_selection/hyperparameter_optimization.py
+  - model_selection/pipeline_clean.py
+  - scale_factor/efficiency_ratio_predictor.py
+  - scale_factor/integrated_ratio_predictor_fixed.py
+  - scale_factor/xgboost_scale_factor_predictor.py
+
+pickle (Built-in module):
+  - calibration/bdt_calibration_example.py
+  - calibration/bdt_calibration_workflow.py
+  - calibration/pipeline_clean.py
+  - library/trigger_efficiency_ML.py
+  - model_selection/gbdt_comparison_framework.py
+  - model_selection/gbdt_training_pipeline.py
+  - model_selection/hyperparameter_optimization.py
+  - model_selection/pipeline_clean.py
+  - scale_factor/example_integration.py
+  - scale_factor/xgboost_scale_factor_predictor.py
+
+pipeline_clean (Version not found):
+  - model_selection/run_gbdt_comparison.py
+
+pkg_resources (Version not found):
+  - extract_libraries.py
+
+re (Built-in module):
+  - composing_plot.ipynb
+  - extract_libraries.py
+
+scipy (1.15.2):
+  - calibration/probability_calibration.py
+  - library/trigger_efficiency_ML.py
+  - scale_factor/efficiency_ratio_predictor.py
+  - scale_factor/integrated_ratio_predictor_fixed.py
+  - scale_factor/xgboost_scale_factor_predictor.py
+
+seaborn (0.13.2):
+  - calibration/bdt_calibration_workflow.py
+  - calibration/probability_calibration.py
+  - calibration/run_bdt_calibration.py
+  - scale_factor/efficiency_ratio_predictor.py
+  - scale_factor/xgboost_scale_factor_predictor.py
+
+sklearn (1.7.0):
+  - calibration/bdt_calibration_example.py
+  - calibration/bdt_calibration_workflow.py
+  - calibration/pipeline_clean.py
+  - calibration/probability_calibration.py
+  - calibration/run_bdt_calibration.py
+  - calibration/test_gradientboosting_integration.py
+  - library/trigger_efficiency_ML.py
+  - model_selection/gbdt_comparison_framework.py
+  - model_selection/gbdt_training_pipeline.py
+  - model_selection/hyperparameter_optimization.py
+  - model_selection/pipeline_clean.py
+  - scale_factor/efficiency_ratio_predictor.py
+  - scale_factor/integrated_ratio_predictor_fixed.py
+  - scale_factor/xgboost_scale_factor_predictor.py
+
+subprocess (Built-in module):
+  - extract_libraries.py
+
+sys (Built-in module):
+  - calibration/run_bdt_calibration.py
+  - cutflow/run_cutflow.py
+  - extract_libraries.py
+  - model_selection/run_gbdt_comparison.py
+  - scale_factor/example_integration.py
+  - scale_factor/integrated_ratio_predictor_fixed.py
+  - scale_factor/xgboost_scale_factor_predictor.py
+
+tabulate (0.9.0):
+  - cutflow/cutflow_analysis.py
+  - cutflow/run_cutflow.py
+
+tensorflow (2.18.0):
+  - library/trigger_efficiency_ML.py
+
+time (Built-in module):
+  - calibration/pipeline_clean.py
+  - cutflow/cutflow_analysis.py
+  - library/processing_data.py
+  - model_selection/gbdt_training_pipeline.py
+  - model_selection/hyperparameter_optimization.py
+  - model_selection/pipeline_clean.py
+
+traceback (Version not found):
+  - calibration/run_bdt_calibration.py
+  - calibration/test_gradientboosting_integration.py
+
+typing (Built-in module):
+  - calibration/pipeline_clean.py
+  - library/trigger_efficiency_ML.py
+  - model_selection/data_loader.py
+  - model_selection/gbdt_comparison_framework.py
+  - model_selection/gbdt_training_pipeline.py
+  - model_selection/hyperparameter_optimization.py
+  - model_selection/pipeline_clean.py
+  - scale_factor/xgboost_scale_factor_predictor.py
+
+warnings (Built-in module):
+  - calibration/bdt_calibration_example.py
+  - calibration/bdt_calibration_workflow.py
+  - calibration/probability_calibration.py
+  - calibration/test_gradientboosting_integration.py
+  - data_distribution.ipynb
+  - library/processing_data.py
+  - model_selection/gbdt_comparison_framework.py
+  - run_gradient_boosting.ipynb
+  - scale_factor/efficiency_ratio_predictor.py
+  - scale_factor/integrated_ratio_predictor_fixed.py
+  - scale_factor/xgboost_scale_factor_predictor.py
+
+xgboost (3.0.3):
+  - calibration/bdt_calibration_example.py
+  - calibration/bdt_calibration_workflow.py
+  - calibration/pipeline_clean.py
+  - calibration/run_bdt_calibration.py
+  - calibration/test_gradientboosting_integration.py
+  - library/trigger_efficiency_ML.py
+  - model_selection/gbdt_comparison_framework.py
+  - model_selection/gbdt_training_pipeline.py
+  - model_selection/hyperparameter_optimization.py
+  - model_selection/pipeline_clean.py
+  - scale_factor/xgboost_scale_factor_predictor.py
+
+
+SUMMARY BY CATEGORY
+----------------------------------------------------------------------
+
+Machine Learning:
+  - sklearn: 1.7.0
+  - xgboost: 3.0.3
+  - lightgbm: 4.6.0
+  - catboost: 1.2.8
+  - tensorflow: 2.18.0
+  - optuna: 4.5.0
+
+Data Analysis:
+  - pandas: 2.3.0
+  - numpy: 2.2.6
+  - scipy: 1.15.2
+  - matplotlib: 3.10.3
+  - seaborn: 0.13.2
+
+Physics/HEP:
+  - ROOT: 6.34.04
+  - hist: 2.8.1
+  - mplhep: 0.3.59
+
+Jupyter/Interactive:
+  - IPython: 9.3.0
+
+Utilities:
+  - pathlib: Built-in module
+  - pickle: Built-in module
+
+Built-in:
+  - datetime: Built-in module
+  - sys: Built-in module
+  - subprocess: Built-in module
+  - json: Built-in module
+  - argparse: Built-in module
+  - glob: Built-in module
+  - array: Built-in module
+  - typing: Built-in module
+  - pickle: Built-in module
+  - math: Built-in module
+  - time: Built-in module
+  - os: Built-in module
+  - warnings: Built-in module
+  - re: Built-in module
+  - pathlib: Built-in module
+  - collections: Built-in module

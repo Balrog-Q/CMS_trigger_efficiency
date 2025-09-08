@@ -1,0 +1,33 @@
+# GBDT Comparison Framework Requirements
+# Versions matching the research specifications where possible
+
+# Core GBDT Libraries (specific versions from research)
+xgboost>=3.0.3
+catboost>=1.2.68
+lightgbm>=4.6.0
+
+# Scikit-learn (includes GradientBoostingClassifier 1.7.0)
+scikit-learn>=1.7.0
+
+# Hyperparameter Optimization
+optuna>=3.0.0
+
+# Data Processing
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Progress bars and visualization
+tqdm>=4.62.0
+matplotlib>=3.5.0
+plotly>=5.0.0  # For Optuna visualizations
+
+# Optional: Jupyter notebook support
+ipywidgets>=7.6.0
+
+# For saving/loading results
+pickle5>=0.0.11
+
+# Note: ROOT is required for loading the actual data
+# ROOT installation depends on your system and can be complex
+# For CERN environments, ROOT is typically pre-installed
+# For other systems, see: https://root.cern/install/

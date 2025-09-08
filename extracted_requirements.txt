@@ -1,0 +1,49 @@
+# CMS Trigger Efficiency Project - Extracted Requirements
+# Generated automatically from project files
+# Date: Mon Sep  8 23:25:36 CEST 2025
+
+# Core Dependencies
+# argparse - Built-in Python module
+# array - Built-in Python module
+# calibration - Version not found
+# collections - Built-in Python module
+# cutflow_analysis - Version not found
+# data_loader - Version not found
+# datetime - Built-in Python module
+# glob - Built-in Python module
+# hyperparameter_optimization - Version not found
+# integrated_ratio_predictor_fixed - Version not found
+# json - Built-in Python module
+# library - Version not found
+# math - Built-in Python module
+# os - Built-in Python module
+# pathlib - Built-in Python module
+# pickle - Built-in Python module
+# pipeline_clean - Version not found
+# pkg_resources - Version not found
+# re - Built-in Python module
+# subprocess - Built-in Python module
+# sys - Built-in Python module
+# time - Built-in Python module
+# traceback - Version not found
+# typing - Built-in Python module
+# warnings - Built-in Python module
+IPython>=9.3.0
+ROOT>=6.34.04
+ast>=3.0.0
+catboost>=1.2.8
+hist>=2.8.1
+importlib>=8.7.0
+keras_tuner>=1.4.7
+lightgbm>=4.6.0
+matplotlib>=3.10.3
+mplhep>=0.3.59
+numpy>=2.2.6
+optuna>=4.5.0
+pandas>=2.3.0
+scipy>=1.15.2
+seaborn>=0.13.2
+sklearn>=1.7.0
+tabulate>=0.9.0
+tensorflow>=2.18.0
+xgboost>=3.0.3
