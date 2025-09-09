@@ -599,6 +599,6 @@ python calibration/test_gradientboosting_integration.py
 
 **Last Updated**: September 2025
 
-**Contact**: [Your contact information or collaboration guidelines]
+**Contact**: trantuankha643@gmail.com
 
 **License**: Follow CMS collaboration guidelines for data and code sharing
